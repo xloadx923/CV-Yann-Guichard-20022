@@ -1,0 +1,5 @@
+Dans la version mobile, quand je clique sur le titre d'un des chapitres alors sont contenu devient actif et de fait est affiché, par contre les autres ne sont plus visibles.
+
+Il y a un lien direct vers ma boîte mail en cas de prise de contact ainsi qu'un lien vers mon site Internet
+
+Quand je passe de la version mobile à la version desktop, le header passe de GRID à FLEX
