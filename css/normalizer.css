@@ -4,14 +4,17 @@
     padding: 0;
 }
 :root{
- font-size: 12px;
- --back-color: rgb(49, 49, 49);
+    font-size: 12px;
+    --shadows:  0 4px 10px;
+    --shadows2:  0 1px 0;
+    --back-color: rgb(49, 49, 49);
+    --white-color: rgb(255, 255, 255);
+    --black-color: rgb(0,0,0);
+    --links-color: rgb(94, 74, 133);
+    --light-violet-color: rgb(180, 170, 190);
+    --transparent-violet-color: rgb(180, 170, 190,.5);
 }
 /* NORMALIZER */
-
-* {
-    box-sizing: border-box;
-}
 
 body {
     margin: 0;

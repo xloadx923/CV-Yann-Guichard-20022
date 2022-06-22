@@ -1,16 +1,118 @@
+@import url(font-awesome.min.css);
+
 body{
-    margin: 0;
-    background-color: var(--back-color);
+    color: darkred;
+    background-color: var(--transparent-violet-color);
+    font-size: 2rem;
+    display: grid;
+    grid-template-columns: 1fr;
+}
+.fa-chevron-down, .fa-chevron-up{
+    margin-left: 15px;
+    font-size: 1.5rem;
+ }
+
+ul.resume{
+    display: none;
+    padding: 10px;
+    border-left: solid var(--light-violet-color) 15px;
+    background-color: var(--transparent-violet-color);
+    border-radius: 15px;
+}
+ul.resume dt{
+    font-weight: bold;
+    padding: 2rem 0;
+}
+ul.active{
+    display: block;
+}
+
+.button{
+    color: var(--light-violet-color);
+    text-shadow: var(--shadows2) var(--back-color);
+    padding: 5px 0;
+    font-size: 2rem;
 }
 
 header{
+    width: 100%;
+    padding: 10px;
+    position: fixed;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    grid-template-columns: 1fr;
+    color: var(--white-color);
+    border-bottom: solid 1px;
+    background-color: var(--light-violet-color);
+    text-shadow:var(--shadows) var(--black-color);
+    box-shadow: var(--shadows) var(--black-color);
+    border-radius:  0 0 15px 15px;
+}
 
+.photo{
+    width: 10rem;
+    height: auto;
+}
+.contPhoto, .contIdentity, .contDescription{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+}
 
+.contProfil{
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 250px 0 10px 0;
+}
+
+.contProfil div, .contProfessionnel div{
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+}
+
+.profil, .experience{
+    border-radius: 15px 15px 0 0;
+}
+
+.coordonnees, .competences{
+    border-radius: 0 0 15px 15px;
+}
+
+.coordonnees li{
+    list-style-type: none;
+}
+
+.contProfessionnel{
+    width: 95%;
+    margin: 10px 0;
+    display: grid;
 }
 
 footer{
+    width: 100%;
+    padding: 10px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top: solid 1px;
+}
 
+.copyright a, .coordonnees a{
+    color: var(--links-color);
 }
