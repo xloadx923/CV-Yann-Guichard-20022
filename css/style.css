@@ -1,11 +1,14 @@
 @import url(font-awesome.min.css);
 
 body{
+    font-size: 2rem;
     color: darkred;
     background-color: var(--transparent-violet-color);
-    font-size: 2rem;
+}
+main{
     display: grid;
     grid-template-columns: 1fr;
+
 }
 .fa-chevron-down, .fa-chevron-up{
     margin-left: 15px;
@@ -54,7 +57,7 @@ header{
 }
 
 .photo{
-    width: 10rem;
+    width: 50%;
     height: auto;
 }
 .contPhoto, .contIdentity, .contDescription{
@@ -105,6 +108,9 @@ main{
     width: 95%;
     margin: 10px 0;
     display: grid;
+}
+.contIdentity, .contDescription{
+    text-align: center;
 }
 
 footer{
