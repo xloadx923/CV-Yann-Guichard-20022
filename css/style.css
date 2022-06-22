@@ -33,6 +33,9 @@ ul.active{
     padding: 5px 0;
     font-size: 2rem;
 }
+ul.resume i{
+    color: var(--black-color);
+}
 
 header{
     width: 100%;
@@ -106,8 +109,10 @@ main{
 
 footer{
     width: 100%;
+    height: 50px;
     padding: 10px 0;
     display: flex;
+    flex-direction: row;
     align-items: center;
     justify-content: center;
     border-top: solid 1px;
