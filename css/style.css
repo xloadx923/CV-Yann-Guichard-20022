@@ -81,7 +81,7 @@ main{
     margin: 250px 0 10px 0;
 }
 
-.contProfil div, .contProfessionnel div{
+.contProfil article, .contProfessionnel article{
     width: 100%;
     padding: 10px;
     display: flex;
